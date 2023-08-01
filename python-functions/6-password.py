@@ -9,4 +9,3 @@ def validate_password(password):
     if ' ' in password:
         return False
     return True
-print(validate_password("abc123"))
